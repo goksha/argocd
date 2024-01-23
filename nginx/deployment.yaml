@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: baversi1997 # You can specify a specific version of Nginx if needed
+        image: nginx # You can specify a specific version of Nginx if needed
         ports:
         - containerPort: 80
