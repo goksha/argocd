@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 1000  # You can adjust the number of replicas as needed
+  replicas: 1  # You can adjust the number of replicas as needed
   selector:
     matchLabels:
       app: nginx
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest  # You can specify a specific version of Nginx if needed
+        image: baversi1997 # You can specify a specific version of Nginx if needed
         ports:
         - containerPort: 80
